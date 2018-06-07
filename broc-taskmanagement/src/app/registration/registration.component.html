@@ -1,0 +1,62 @@
+<mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Registration</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <form class="example-form" #registrationForm="ngForm" novalidate>
+            <table class="example-full-width" cellspacing="0">
+              <tr>
+                    <td>
+                    <mat-form-field class="example-full-width">
+                    <input matInput placeholder="First Name" [(ngModel)]="userModel.firstName" name="firstName" required>
+                    </mat-form-field>
+                    </td>
+              </tr>            
+              <tr>
+                      <td>
+                          <mat-form-field class="example-full-width">
+                          <input matInput placeholder="Last Name" [(ngModel)]="userModel.lastName" name="lastname" required>
+                          </mat-form-field>
+                      </td>
+              </tr>
+              <tr>
+                      <td><mat-form-field class="example-full-width">
+                          <input matInput placeholder="Password" [(ngModel)]="userModel.password" type="password" name="password" required>
+                      </mat-form-field></td>
+              </tr>
+              <tr>
+                      <td><mat-form-field class="example-full-width">
+                          <input matInput placeholder="ConfirmPassword" [(ngModel)]="userModel.password"type="password" name="confirmpassword" required>
+                      </mat-form-field></td>
+              </tr>
+              <tr>
+                  <td>
+                  <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Phone No" [(ngModel)]="userModel.phoneNo" name="phoneNo" >
+                  </mat-form-field>
+                  </td>
+            </tr> 
+              <tr>
+                  <td>
+                  <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Address" [(ngModel)]="userModel.address" name="address" >
+                  </mat-form-field>
+                  </td>
+            </tr> 
+              <tr>
+                      <td>
+                          <mat-form-field class="example-full-width" >
+                          <input matInput placeholder="E-mail" [(ngModel)]="userModel.email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"   name="email" required >
+                        </mat-form-field>
+                    </td>
+                    
+              </tr>
+         </table>
+          </form>
+          <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button (click)="submitRegistrationForm()" [disabled]="!registrationForm.form.valid"  color="primary">Register</button>
+          <button mat-button (click)="OnBackPage()"  color="primary"><<Back</button>
+        </mat-card-actions>
+      </mat-card>

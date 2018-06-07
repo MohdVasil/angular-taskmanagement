@@ -1,0 +1,18 @@
+.mattoolbar{
+    background:rgb(46, 20, 139); 
+    color: beige  ;
+  }
+  
+  .righticon {
+    /* position: fixed; */
+    top: 20px;
+    right: 20px;
+    /* color: #00c3ff; */
+    float: right;
+  }
+  /* .example-icon {
+    padding: 0 14px;
+    } */
+    .example-spacer {
+    flex: 1 1 auto;
+    }

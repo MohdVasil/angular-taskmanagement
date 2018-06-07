@@ -1,0 +1,53 @@
+<mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Task Detail</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <form class="example-form" #taskForm="ngForm" novalidate >
+            <table class="example-full-width" cellspacing="0">
+              <tr>
+                    <td>
+                    <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Summary" [(ngModel)]="taskModel.summary" name="summary" required>
+                    </mat-form-field>
+                    </td>
+              </tr>
+              <tr>
+                    <td>
+                      <mat-form-field class="example-full-width">
+                      <input matInput placeholder="Description" [(ngModel)]="taskModel.description" name="description" required>
+                      </mat-form-field>
+                    </td>
+              </tr> 
+              <tr>
+                <td>
+                  <mat-form-field>
+                   <mat-select placeholder="Priority" [(value)]="taskModel.priorityId">
+                    <option value="default">Plese select proiority</option>
+                    <mat-option *ngFor="let prty of priorityList" [value]="prty.id">
+                       {{ prty.priority }}
+                    </mat-option>
+                    </mat-select>
+                 </mat-form-field>
+                </td>
+              </tr> 
+              <tr>
+                <td>
+                  <mat-form-field>
+                        <mat-select placeholder="Status"  [(value)]="taskModel.statusId">
+                            <mat-option *ngFor="let status of statusList" [value]="status.id">
+                          {{ status.status }}
+                        </mat-option>
+                      </mat-select>
+                  </mat-form-field>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button (click)="saveTask()" [disabled]="!taskForm.form.valid" color="primary">{{taskName}}</button>
+          <button mat-raised-button (click)="OnBackPage()"  color="primary"><<Back</button>
+        </mat-card-actions>               
+      </mat-card>

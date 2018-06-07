@@ -1,0 +1,26 @@
+    <mat-toolbar class="mattoolbar">
+        <mat-toolbar-row>
+          <span class="done">
+            <button mat-fab><mat-icon>check circle</mat-icon></button>
+          </span> 
+          <span>Task Management Assignment</span>             
+          <button mat-button [routerLink] = "['/tasklist']" *ngIf="isTaskListVisible">Tasks</button>       
+          <button mat-button [routerLink] = "['/user']" *ngIf="isUserListVisible">User</button> 
+          <span class="example-spacer"></span>           
+          
+          <div class="righticon">                 
+            <button mat-button [routerLink] = "['']" >Contact</button>              
+              <span style="font-weight:bold">{{userType}}</span>
+            <button mat-icon-button [mat-menu-trigger-for]="menu"  >
+              <mat-icon>more_vert</mat-icon>
+            </button>
+          </div> 
+        </mat-toolbar-row>  
+      </mat-toolbar>  
+      <mat-menu x-position="before" #menu="matMenu">
+            <button mat-menu-item [routerLink] = "['/login']" (click)="logOut()" >{{isLoginSucces ? 'Logout':'Login'}}</button>
+            <button mat-menu-item [routerLink] = "['/registration']" >Signup</button>
+     </mat-menu>
+      <div>
+          <router-outlet></router-outlet>
+      </div>

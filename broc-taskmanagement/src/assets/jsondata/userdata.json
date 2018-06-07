@@ -1,0 +1,26 @@
+
+ [
+    {"userId":1881,"firstName":"Mohd1","lastName":"Vasil1","email":"mohdvasil11@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123" ,"roleTypeId":0},
+    {"userId":1882,"firstName":"Mohd2","lastName":"Vasil2","email":"mohdvasil22@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1883,"firstName":"Mohd3","lastName":"Vasil3","email":"mohdvasil33@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1884,"firstName":"Mohd4","lastName":"Vasil4","email":"mohdvasil44@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1885,"firstName":"Mohd5","lastName":"Vasil5","email":"mohdvasil22@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1886,"firstName":"Mohd6","lastName":"Vasil6","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1887,"firstName":"Mohd7","lastName":"Vasil7","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1888,"firstName":"Mohd8","lastName":"Vasil8","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1889,"firstName":"Mohd9","lastName":"Vasil9","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1890,"firstName":"Mohd10","lastName":"Vasil10","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1891,"firstName":"Mohd11","lastName":"Vasil11","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1892,"firstName":"Mohd12","lastName":"Vasil12","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1893,"firstName":"Mohd13","lastName":"Vasil13","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1894,"firstName":"Mohd14","lastName":"Vasil14","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1895,"firstName":"Mohd15","lastName":"Vasil15","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":0},
+    {"userId":1896,"firstName":"Mohd16","lastName":"Vasil16","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":433443,"password":"Test123","roleTypeId":1},
+    {"userId":1874,"firstName":"Mohd17","lastName":"Vasil17","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":643784,"password":"Test123","roleTypeId":0},
+    {"userId":1839,"firstName":"Mohd18","lastName":"Vasil18","email":"mohdvasi2@broctagon.com","address":"Delhi","phoneNo":8438743,"password":"Test123","roleTypeId":0},
+    {"userId":1828,"firstName":"Mohd19","lastName":"Vasil19","email":"mohdvasi3@broctagon.com","address":"Delhi","phoneNo":8748338,"password":"Test123","roleTypeId":1},
+    {"userId":1827,"firstName":"Mohd20","lastName":"Vasil20","email":"mohdvasi4@broctagon.com","address":"Delhi","phoneNo":897438,"password":"Test123","roleTypeId":1},
+    {"userId":1826,"firstName":"Mohd21","lastName":"Vasil21","email":"mohdvasi5@broctagon.com","address":"Delhi","phoneNo":8974383,"password":"Test123","roleTypeId":0},
+    {"userId":1824,"firstName":"Mohd22","lastName":"Vasil22","email":"mohdvasil@broctagon.com","address":"Delhi","phoneNo":8743891,"password":"Test123","roleTypeId":1}
+]
+ 
