@@ -5,7 +5,7 @@ import {GlobalSubscription} from '../common/globalsubscription';
 import {GlobalVar} from '../common/globalvar';
 
 import {AccessPermission} from '../model/accesspermission'
-import { Subject } from 'rxjs/subject';
+// import { Subject } from 'rxjs/subjectsubject';
 
 @Component({
   selector: 'login-comp',
@@ -14,7 +14,6 @@ import { Subject } from 'rxjs/subject';
 })
 
 export class LoginComponent {
-
   constructor(private _loginService:LoginService,private _globalSubscription:GlobalSubscription) {
   }
 
